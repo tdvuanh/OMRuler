@@ -49,7 +49,7 @@ public final class RangeLayer: CALayer {
             fatalError("Please set distanceBetweenLeastScaleMarkers")
         }
         
-        UIGraphicsImageRenderer(self.frame.size, false, UIScreen.main.scale)
+        UIGraphicsImageRenderer(self.frame.size)
         var position: Float = 0
 
         var previousMarker: RangeMarker?
